@@ -65,13 +65,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <meta name="google-adsense-account" content="ca-pub-6499390305541184" />
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6499390305541184"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        <meta name="google-adsense-account" content="ca-pub-6499390305541184">
+       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6499390305541184"
+     crossorigin="anonymous"></script>
       </head>
       <body className={`${inter.className} bg-black text-white antialiased selection:bg-purple-500/30`}>
         <Oneko />
